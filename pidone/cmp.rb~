@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+count=0
+rpi=File.open "realpi.txt"
+out=File.open "out.txt"
+while rpi.gets==out.gets
+    count++
+end
+puts (count>1)?(count-1):(count)
