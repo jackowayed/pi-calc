@@ -1,3 +1,7 @@
+/* Copyright (c) 2007-2008 Daniel Jackoway 
+ *
+ * Released Under the MIT License. See COPYING for details.
+ */
 #include <math.h>
 #include <gmp.h>
 #include <stdio.h>
